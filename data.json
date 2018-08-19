@@ -1,0 +1,53 @@
+{     
+	"basics":{       
+	  "name": "NAZMA SHAIKH",   
+	  "role":"Software-Engineer",
+	  "mobile":"+91 9876543210",
+	  "email":"nazmaislami765@gmail.com"    
+	},
+	"career":{   
+		"info":"To persue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"    
+	},
+	"career":{   
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"     
+	},
+	"education":[ 
+		{ 
+	    	"degree":"B.tech(Computer Science Engineering)",         
+	    	"institution":"Vignan Nirula",
+	        "data":["2016-2020","80%"]     
+	    },
+	    {
+	    	"degree":"Diploma(CME)",
+	    	"institution":"Vignan",
+	    	"data":["2014-2016","80%"]
+	    },
+	    {
+	    	"degree":"S.S.C",
+	    	"institution":"Kennedy high school",
+	    	"data":["2013-2014","90%"]
+	    }
+	],
+	"skills":[
+		{
+			"title":"Programming languages",
+			"content":["Python","C","C++","Java","SRP"]
+		},
+		{
+			"title":"Data bases",
+			"content":["SQL","Oracle","mysql"]
+		},
+		{
+			"title":"Web Technologies",
+			"content":["HTML","XML","Javascript"]
+		},
+		{
+			"title":"Operating Systems",
+			"content":["Windows","Unix","Linux"]
+		}
+	]
+		
+}
+	
+
+	     

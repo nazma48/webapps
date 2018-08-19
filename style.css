@@ -1,0 +1,178 @@
+table{
+	width: 100%;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 3px #ddd;
+}
+tr:nth-child(even){
+	background: #1A90B7;
+	color:#fff;
+}
+td{
+	padding: 1%;
+	/*color:blue;*/
+}
+th{
+	padding:1%;
+}
+.skDiv{
+	width:100%;
+	border-left: 3px solid #0E4DBA;
+	padding: 1%;
+	margin: 1%;
+}
+span{
+	background:#0E4DBA;
+	color:#fff;
+	border: 1px solid #882D6E;
+	box-shadow: 3px 3px #ddd;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 5px;
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	width: 30%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	background: #815B7A ;
+	color: red;
+}
+.child2{
+	width: 70%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #F5F8F9;
+	color: green;
+}
+.profile{
+	width: 200;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	text-align: center;
+	color: #F212CC; 
+}
+a{
+	word-wrap: break-word;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+h1{
+.parent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	width: 90%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	background: #72C075   ;
+	color: #D58B29  ;
+}
+.child2{
+	width: 90%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #29D5CC   ;
+	color: #B729D5  ;
+}
+.profile{
+	width: 200;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}	text-align: center;
+	color: #F212CC; 
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+	.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	width: 40%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	background:#D52948    ;
+	color: #29D5B6  ;
+}
+.child2{
+	width: 60%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background:#34495E;
+	color:#EC7063   ;
+}
+.profile{
+	width: 200;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	text-align: center;
+	color: #F212CC; 
+}
+body{
+	color: pink;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	.parent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	text-align: center;
+	background: #815B7A ;
+	color: yellow;
+}
+.child2{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #1ABC9C   ;
+	color: #641E16  ;
+}
+.profile{
+	width: 200;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1{
+	text-align: center;
+	color: #F212CC; 
+}
+body{
+	color: orange;
+}
+}
